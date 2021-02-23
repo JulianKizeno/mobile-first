@@ -19,3 +19,31 @@ html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-width: 320px;
+    height: 33.4rem;
+    text-align: center;
+}
+
+header img{
+    width: 15rem;
+    height: 2.4rem;
+    margin-top: 6rem;
+    align-self: center;
+}
+
+.header--title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 21.8rem;
+    margin-top: 4rem ;
+    text-align: center;
+    align-self: center;
+}
